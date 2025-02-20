@@ -10,6 +10,8 @@ import (
 // GPT3 Models are designed for text-based tasks. For code-specific
 // tasks, please refer to the Codex series of models.
 const (
+	DeepseekChat          = "deepseek-chat"
+	DeepseekReasoner      = "deepseek-reasoner"
 	O1Mini                = "o1-mini"
 	O1Mini20240912        = "o1-mini-2024-09-12"
 	O1Preview             = "o1-preview"
